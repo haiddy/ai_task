@@ -1,0 +1,11 @@
+Intial state :
+Waiting for the user's input
+
+Successor: 
+Process the input and get the output
+
+Goal :
+Is the user diabetic or not
+
+Cost :
+For each input 1 cost
