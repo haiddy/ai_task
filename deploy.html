@@ -1,0 +1,45 @@
+<html>
+<body>
+	<h3>Income Prediction Form</h3>
+
+<center>
+<form action="{{ url_for('predict') }}" method="POST">
+	<br>
+    <br>
+	<label for="Pregnancies">Pregnancies</label>
+	<input type="text" id="Pregnancies" name="Pregnancies">
+	<br>
+    <br>
+	<label for="Glocusse">Glocusse</label>
+	<input type="text" id="Glocusse" name="Glocusse">
+	<br>
+    <br>
+	<label for="BloodPressure">BloodPressure</label>
+	<input type="text" id="BloodPressure" name="BloodPressure">
+	<br>
+	<br>
+	<label for="SkinThickness">SkinThickness</label>
+	<input type="text" id="SkinThickness" name="SkinThickness">
+	<br>
+	<br>
+	<label for="Insulin">Insulin</label>
+	<input type="text" id="Insulin" name="Insulin">
+	<br>
+	<br>
+	<label for="BMI">BMI</label>
+	<input type="text" id="BMI" name="BMI">
+	<br>
+	<br>
+	<label for="DiabetesPedigreeFunction">DiabetesPedigreeFunction</label>
+	<input type="text" id="DiabetesPedigreeFunction" name="DiabetesPedigreeFunction">
+	<br>
+	<br>
+	<label for="Age">Age</label>
+	<input type="text" id="Age" name="Age">
+	<br>
+	<br>
+	<input type="submit" value="Submit">
+</form>
+</center>
+</body>
+</html>
